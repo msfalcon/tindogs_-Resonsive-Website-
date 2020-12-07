@@ -1,0 +1,137 @@
+#title{
+    
+    font-family: montserrat;
+    
+}
+h1{
+    font-family:montserrat-black;
+    color:#fff;
+    line-height: 4rem;
+    font-size: 4rem;
+}
+.container-fluid{
+    padding:0% 15% 4% 15%;
+    background-color: orangered;
+}
+.img1{
+    width:200px;
+    padding-top: 7%;
+    position: absolute; 
+    left:10%;
+    
+    
+
+}
+#middlebody{
+    background-color:#fff;
+    position: relative;
+    z-index:1;
+    
+
+}
+
+.navbar{
+    margin-bottom: 3rem;
+}
+.download{ 
+    
+    margin:2rem 1rem 2rem 1rem;
+
+}
+li{
+    margin:auto 1rem;
+    font-family: montserrat-regular;
+}
+.navbar-brand{
+    font-family:montserrat-light;
+    font-size:2rem;
+}
+.rotated{
+    transform:rotate(20deg);
+}
+.dropdown-menu{
+    background-color: orange;
+}
+.clip1{
+    color:red;
+    padding-bottom: 4%; 
+}
+.clip1:hover{
+    color:rgb(252, 115, 2);
+}
+.features{
+    text-align: center;
+    padding:3% 8%;
+}
+#middlebody{
+    padding:5% 10% 4% 10%;
+}
+h3{
+    font-family:montserrat-bold 700;
+}
+p{
+    color:grey;
+}
+.slider-content{
+    padding:15% 20%;
+    text-align: center;
+    
+    
+}
+.iimg{
+    color:red;
+    position: absolute;
+    right:20%;
+}
+
+.card-h1{
+    color:black;
+    
+}
+#pricing{
+    text-align: center;
+    padding-top:5% ;
+    padding-bottom:5%;
+}
+.pricing-row{
+    padding:3% 7% 0%;
+}
+
+ @media (max-width:950px){
+     .img1{
+         position:static;
+         transform: rotate(0deg);
+
+     }
+     #title{
+         text-align: center;
+     }
+ }
+ .lower-h1{
+     
+     text-align: center;
+ }
+ .download-bottom{
+     margin: 2rem 1rem 2rem 1rem;
+     text-align: center;
+ }
+ #lower-body{
+     background-color: orangered;
+     text-align: center;
+     padding: 5% 15% 5% 15%;
+ }
+ @media (min-width:770px){
+    .lower-content{
+        width:70%;
+        margin:0% auto;
+    }
+
+ }
+ #footer{
+     padding:5%;
+     text-align:center;
+ }
+.imgf{
+    padding:3% 1%;
+
+}
